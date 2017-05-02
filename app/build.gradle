@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "substratum.theme.template"
+        applicationId "otgsubs.template.patchable"
         minSdkVersion 23
         targetSdkVersion 25
         versionCode 2
