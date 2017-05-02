@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+
+    <style name="ContainerTheme.Dialog.Alert" parent="@*com.touchtype.swiftkey:style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@*android:color/white</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+
+    <style name="LightTheme.Dialog.Alert" parent="@*com.touchtype.swiftkey:style/Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@*android:color/white</item>
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="*com.touchtype.swiftkey:colorAccent">@*com.touchtype.swiftkey:color/swiftkey_hopper_darker</item>
+    </style>
+
+    <style name="CloudSetupPages">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="ContainerListStyle" parent="@*android:style/Widget.Material.ListView">
+        <item name="android:divider">@*com.touchtype.swiftkey:drawable/material_pref_divider</item>
+    </style>
+
+    <style name="ContainerTheme.Authentication" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+
+    <style name="ContainerTheme.StatsCard" parent="@*com.touchtype.swiftkey:style/ContainerTheme">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+
+    <style name="ContainerTheme.TipWidgetAction" parent="@*com.touchtype.swiftkey:style/ContainerTheme">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ContainerTheme.TipWidgetSummary" parent="@*com.touchtype.swiftkey:style/ContainerTheme">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+    <style name="InstallerPolicy">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:text">16sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="InstallerSuccessText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+
+    <style name="NoActionBar" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="Onboarding.CloudTitle" parent="@*com.touchtype.swiftkey:style/Onboarding">
+        <item name="android:textSize">@*com.touchtype.swiftkey:dimen/onboarding_cloud_title_textsize</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+</resources>

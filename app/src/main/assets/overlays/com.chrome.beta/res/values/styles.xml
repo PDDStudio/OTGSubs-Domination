@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:background">@*com.chrome.beta:drawable/abc_edit_text_material</item>
+        <item name="android:dropDownSelector">@*com.chrome.beta:drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@*com.chrome.beta:drawable/abc_popup_background_mtrl_mult</item>
+    </style>
+
+    <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:background">@*com.chrome.beta:drawable/abc_edit_text_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@*com.chrome.beta:style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxWidth">180.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="*com.chrome.beta:textAllCaps">true</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:dropDownListViewStyle">@*com.chrome.beta:style/Base.Widget.AppCompat.ListView.DropDown</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown" parent="@*android:style/Widget.Material.ListView.DropDown">
+      <item name="android:backgroundTint">@null</item>
+    </style> 
+    <style name="Widget.MediaRouter.ChooserText" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Secondary">
+        <item name="android:textColor">#8affffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText.Secondary">
+        <item name="android:textColor">#8affffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText" parent="@*com.chrome.beta:style/Widget.MediaRouter.ChooserText" />
+    <style name="Widget.MediaRouter.ControllerText.Title" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Title.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Primary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary.Dark" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.MediaRouter.ControllerText.Secondary.Light" parent="@*com.chrome.beta:style/Widget.MediaRouter.ControllerText.Secondary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PreferenceTextAppearanceMedium">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ButtonBar" parent="@*android:style/Holo.ButtonBar.AlertDialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0.0dip</item>
+    </style>
+    <style name="ButtonBarButton" parent="@*android:style/Widget.Holo.Button">
+        <item name="android:background">@*com.chrome.beta:drawable/abc_item_background_holo_dark</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="WebNotificationButton" parent="@*android:style/Widget.DeviceDefault.Button.Borderless.Small">
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+    <style name="ContextualSearchTextViewLayout">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingLeft">53.0dip</item>
+        <item name="android:paddingRight">53.0dip</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ContextualSearchTextView">
+        <item name="android:textSize">@*com.chrome.beta:dimen/overlay_panel_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ContextualSearchContextTextView">
+        <item name="android:textSize">@*com.chrome.beta:dimen/overlay_panel_text_size</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">30.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+    </style>
+    <style name="PhysicalWebNearbyUrlsListStyle" parent="@*com.chrome.beta:style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PhysicalWebOptInStyle" parent="@*com.chrome.beta:style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="*com.chrome.beta:windowActionBar">false</item>
+        <item name="*com.chrome.beta:windowNoTitle">true</item>
+    </style>
+    <style name="ContextualSearchCaptionTextView">
+        <item name="android:textSize">@*com.chrome.beta:dimen/contextual_search_caption_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">7.0dip</item>
+        <item name="android:layout_marginRight">7.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="FullscreenWhite" parent="@*com.chrome.beta:style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorLink">@*com.chrome.beta:color/light_active_color</item>
+        <item name="*com.chrome.beta:windowNoTitle">true</item>
+        <item name="*com.chrome.beta:colorPrimary">@*com.chrome.beta:color/light_active_color</item>
+        <item name="*com.chrome.beta:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.chrome.beta:colorAccent">@*com.chrome.beta:color/light_active_color</item>
+    </style>
+</resources>

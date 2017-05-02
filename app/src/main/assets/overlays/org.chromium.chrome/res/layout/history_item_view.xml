@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.history.HistoryItemView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:chrome="http://schemas.android.com/apk/org.chromium.chrome:">
+    <LinearLayout android:orientation="horizontal" android:id="@*org.chromium.chrome:id/content" android:background="@*android:color/background_dark" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@*org.chromium.chrome:dimen/list_item_lateral_padding" android:layout_marginRight="@*org.chromium.chrome:dimen/list_item_lateral_padding">
+        <ImageView android:id="@*org.chromium.chrome:id/icon_view" android:src="@*org.chromium.chrome:drawable/default_favicon" android:contentDescription="@null" style="@*org.chromium.chrome:style/HistoryStartIcon" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:textColor="@*org.chromium.chrome:color/default_text_color" android:ellipsize="end" android:id="@*org.chromium.chrome:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@*org.chromium.chrome:color/google_grey_600" android:ellipsize="end" android:id="@*org.chromium.chrome:id/domain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <org.chromium.chrome.browser.widget.TintedImageButton android:id="@*org.chromium.chrome:id/remove" android:src="@*org.chromium.chrome:drawable/btn_trash" android:contentDescription="@*org.chromium.chrome:string/remove" chrome:tint="@*org.chromium.chrome:color/dark_mode_tint" style="@*org.chromium.chrome:style/HistoryEndIcon" />
+    </LinearLayout>
+</org.chromium.chrome.browser.history.HistoryItemView>

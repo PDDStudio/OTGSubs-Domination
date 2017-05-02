@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@*com.instagram.android:id/top_divider" layout="@*com.instagram.android:layout/row_divider" />
+    <LinearLayout android:orientation="horizontal" android:background="@*android:color/background_floating_material_dark" android:paddingLeft="@*com.instagram.android:dimen/card_padding" android:paddingTop="@*com.instagram.android:dimen/card_padding" android:paddingRight="@*com.instagram.android:dimen/card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#ffffffff" android:ellipsize="end" android:layout_gravity="start|center" android:id="@*com.instagram.android:id/suggested_users_carousel_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@*com.instagram.android:string/suggestions_for_you" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textColor="#ff1976d2" android:layout_gravity="end|center" android:id="@*com.instagram.android:id/suggested_users_carousel_see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.instagram.android:string/view_all" android:singleLine="true" />
+    </LinearLayout>
+    <com.instagram.ui.recyclerpager.HorizontalRecyclerPager android:id="@*com.instagram.android:id/suggested_users_carousel_view" android:background="@*android:color/background_floating_material_dark" android:paddingLeft="@*com.instagram.android:dimen/carousel_horizontal_padding" android:paddingRight="@*com.instagram.android:dimen/carousel_horizontal_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@*com.instagram.android:layout/row_divider" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@*android:color/background_floating_material_dark" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@*com.touchtype.swiftkey:id/theme_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@*com.touchtype.swiftkey:drawable/thumbnail" android:adjustViewBounds="true" />
+    <TextView android:textSize="@*com.touchtype.swiftkey:dimen/theme_dialog_text_size" android:textColor="@*com.touchtype.swiftkey:color/theme_dialog_name" android:id="@*com.touchtype.swiftkey:id/theme_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@*com.touchtype.swiftkey:dimen/theme_dialog_horizontal_margin" android:layout_marginTop="@*com.touchtype.swiftkey:dimen/theme_dialog_vertical_margin" android:layout_marginRight="@*com.touchtype.swiftkey:dimen/theme_dialog_horizontal_margin" android:layout_marginBottom="@*com.touchtype.swiftkey:dimen/theme_dialog_vertical_margin" android:layout_below="@*com.touchtype.swiftkey:id/theme_preview" />
+</RelativeLayout>

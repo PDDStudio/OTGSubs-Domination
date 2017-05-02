@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@*org.chromium.chrome:id/privacy_disclaimers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+        <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@*org.chromium.chrome:id/signed_in_not_synced" style="@*org.chromium.chrome:style/PrivacyDisclaimerText" />
+        <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@*org.chromium.chrome:id/signed_in_synced" style="@*org.chromium.chrome:style/PrivacyDisclaimerText" />
+        <org.chromium.ui.widget.TextViewWithClickableSpans android:id="@*org.chromium.chrome:id/other_forms_of_browsing_history" style="@*org.chromium.chrome:style/PrivacyDisclaimerText" />
+    </LinearLayout>
+    <FrameLayout android:background="@*org.chromium.chrome:drawable/list_item_single" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textColor="@*org.chromium.chrome:color/history_cbd_button_tint" android:gravity="start|center" android:id="@*org.chromium.chrome:id/clear_browsing_data_button" android:paddingLeft="17.0dip" android:paddingTop="16.0dip" android:paddingRight="17.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*org.chromium.chrome:string/open_clear_browsing_data_dialog_button" android:textAllCaps="true" style="@*org.chromium.chrome:style/ButtonCompatBorderless" />
+    </FrameLayout>
+</LinearLayout>

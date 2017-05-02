@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@*com.instagram.android:id/top_divider" layout="@*com.instagram.android:layout/row_divider" />
+    <LinearLayout android:orientation="horizontal" android:background="@*android:color/background_floating_material_dark" android:paddingLeft="@*com.instagram.android:dimen/carousel_header_padding_redesign" android:paddingRight="@*com.instagram.android:dimen/carousel_header_padding_redesign" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/carousel_header_height">
+        <TextView android:textSize="@*com.instagram.android:dimen/font_medium" android:textColor="#ffdddddd" android:ellipsize="end" android:layout_gravity="center|left" android:id="@*com.instagram.android:id/suggested_users_carousel_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@*com.instagram.android:string/suggestions_for_you" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="@*com.instagram.android:dimen/font_medium" android:textColor="#ff1976d2" android:layout_gravity="center|right" android:id="@*com.instagram.android:id/suggested_users_carousel_see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.instagram.android:string/view_all" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <com.instagram.ui.recyclerpager.HorizontalRecyclerPager android:id="@*com.instagram.android:id/suggested_users_carousel_view" android:background="@*android:color/background_floating_material_dark" android:paddingLeft="@*com.instagram.android:dimen/carousel_horizontal_padding_redesign" android:paddingRight="@*com.instagram.android:dimen/carousel_horizontal_padding_redesign" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@*com.instagram.android:layout/row_divider" />
+</merge>

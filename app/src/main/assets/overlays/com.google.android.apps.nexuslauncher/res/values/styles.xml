@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseLauncherTheme" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="CustomOverscroll.Light" parent="@*android:style/Theme.Material">
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+    </style>
+
+
+    <style name="Icon.DeepShortcut" parent="@*com.google.android.apps.nexuslauncher:style/Icon">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:shadowRadius">0.0</item>
+        <item name="android:drawablePadding">@*com.google.android.apps.nexuslauncher:dimen/deep_shortcut_drawable_padding</item>
+        <item name="android:drawableEnd">@*com.google.android.apps.nexuslauncher:drawable/deep_shortcuts_drag_handle</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@*com.google.android.apps.nexuslauncher:dimen/bg_pill_height</item>
+        <item name="android:paddingEnd">@*com.google.android.apps.nexuslauncher:dimen/deep_shortcut_padding_end</item>
+        <item name="android:elevation">@*com.google.android.apps.nexuslauncher:dimen/deep_shortcuts_elevation</item>
+        <item name="*com.google.android.apps.nexuslauncher:layoutHorizontal">true</item>
+        <item name="*com.google.android.apps.nexuslauncher:iconSizeOverride">@*com.google.android.apps.nexuslauncher:dimen/deep_shortcut_icon_size</item>
+        <item name="*com.google.android.apps.nexuslauncher:customShadows">false</item>
+    </style>
+
+
+</resources>

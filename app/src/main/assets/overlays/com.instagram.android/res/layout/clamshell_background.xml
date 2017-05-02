@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@**android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/lib/com.instagram.andriod">
+    <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@*com.instagram.android:id/animating_video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:forceFullWidth="true">
+        <ImageView android:id="@*com.instagram.android:id/animating_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+    <View android:id="@*com.instagram.android:id/foreground_top" android:background="@*android:color/white" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+    <View android:id="@*com.instagram.android:id/foreground_bottom" android:background="@*android:color/white" android:layout_width="wrap_content" android:layout_height="0.0dip" />
+</FrameLayout>

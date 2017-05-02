@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@*com.instagram.android:dimen/iglive_row_padding" android:insetBottom="@*com.instagram.android:dimen/iglive_row_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <gradient android:startColor="#ff512da8" android:endColor="#ffb71c1c" android:angle="315.0" />
+        <corners android:radius="4.0dip" />
+    </shape>
+</inset>

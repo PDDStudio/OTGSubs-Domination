@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarStyle" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:background">@*android:color/transparent</item>
+    </style>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Material" />
+    <style name="DateTimePickerButton" parent="@*android:style/Widget.Material.Spinner">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="FlatButtonBar">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    <style name="FlatButtonBorder">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="FlatButtonSeparator">
+        <item name="android:background">#ffaaaaaa</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:maxHeight">56.0dip</item>
+    </style>
+    <style name="LearnMoreTourButtonStyle" parent="@*android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_marginLeft">24.0dip</item>
+        <item name="android:layout_marginRight">24.0dip</item>
+        <item name="android:minWidth">88.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+
+    <style name="Theme.EmeraldSea.Dialog" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.EmeraldSea.Preference.Dialog" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.Settings" parent="@*android:style/Theme.Material" />
+
+    <style name="UrawTheme" parent="@*android:style/Theme.Holo" />
+
+    <style name="Theme" parent="@*android:style/Theme.Material" />
+    <style name="Theme.AlertFragmentDialog" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.AppInvite.Preview.Base" parent="@*android:style/Theme.NoTitleBar" />
+    <style name="BottomBarItemHorizontal">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_12</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@*com.google.android.apps.plus:dimen/navigation_bar_y_padding</item>
+        <item name="android:paddingBottom">@*com.google.android.apps.plus:dimen/navigation_bar_y_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@*com.google.android.apps.plus:dimen/navigation_bar_x_drawable_padding</item>
+    </style>
+    <style name="BottomBarItemVertical">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_12</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.google.android.apps.plus:drawable/bottom_bar_item_ripple</item>
+        <item name="android:paddingTop">@*com.google.android.apps.plus:dimen/navigation_bar_y_top_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@*com.google.android.apps.plus:dimen/navigation_bar_y_drawable_padding</item>
+    </style>
+    <style name="GooglePhotosPromoGetUpdateButton" parent="@*com.google.android.apps.plus:style/quantum_text_button_black">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*com.google.android.apps.plus:drawable/googblue500_button</item>
+        <item name="android:layout_width">200.0dip</item>
+        <item name="android:layout_height">36.0dip</item>
+    </style>
+    <style name="PhotosBackupPromoPositiveButton" parent="@*com.google.android.apps.plus:style/quantum_text_button_black">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@*com.google.android.apps.plus:drawable/googblue500_button</item>
+    </style>
+    <style name="Squares.LandingViewButton" parent="@*com.google.android.apps.plus:style/Squares">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*com.google.android.apps.plus:drawable/green_button</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.plus:dimen/square_card_padding</item>
+        <item name="android:layout_marginTop">@*com.google.android.apps.plus:dimen/square_card_padding</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.plus:dimen/square_card_padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginStart">@*com.google.android.apps.plus:dimen/square_card_padding</item>
+        <item name="android:layout_marginEnd">@*com.google.android.apps.plus:dimen/square_card_padding</item>
+    </style>
+    <style name="Theme.AppInvite.Preview" parent="@*com.google.android.apps.plus:style/Theme.AppInvite.Preview.Base">
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

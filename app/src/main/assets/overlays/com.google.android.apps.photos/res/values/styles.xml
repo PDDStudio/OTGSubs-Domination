@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@*android:style/Widget.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:background">@*com.google.android.apps.photos:drawable/abc_edit_text_material</item>
+        <item name="android:dropDownSelector">@*com.google.android.apps.photos:drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@*com.google.android.apps.photos:drawable/abc_popup_background_mtrl_mult</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:background">@*com.google.android.apps.photos:drawable/abc_edit_text_material</item>
+    </style>
+    <style name="Base.CardView" parent="@*android:style/Widget" />
+    <style name="CardView" parent="@*com.google.android.apps.photos:style/Base.CardView" />
+ 
+    <style name="DrawerMenu.AccountItem.TextStyle" parent="@*com.google.android.apps.photos:style/DrawerMenu.AccountItem">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="FloatingSearchBarCardView">
+        <item name="android:layout_marginLeft">@*com.google.android.apps.photos:dimen/photos_floatingsearchbar_cardui_additional_side_padding</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.photos:dimen/photos_floatingsearchbar_cardui_additional_side_padding</item>
+        <item name="*com.google.android.apps.photos:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.apps.photos:cardCornerRadius">@*com.google.android.apps.photos:dimen/photos_floatingsearchbar_cardui_corner_radius</item>
+        <item name="*com.google.android.apps.photos:cardElevation">@*com.google.android.apps.photos:dimen/photos_floatingsearchbar_cardui_default_elevation</item>
+        <item name="*com.google.android.apps.photos:cardMaxElevation">@*com.google.android.apps.photos:dimen/photos_floatingsearchbar_cardui_max_elevation</item>
+        <item name="*com.google.android.apps.photos:cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="LabelPreference.Label" parent="@*com.google.android.apps.photos:style/LabelPreference">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="LabelPreference.Summary" parent="@*com.google.android.apps.photos:style/LabelPreference">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="LabelPreference.Title" parent="@*com.google.android.apps.photos:style/LabelPreference">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+
+    <style name="StoriesEditTextTheme" parent="@*android:style/Theme.Holo.Dialog" />
+
+
+
+    <style name="UrawTheme" parent="@*android:style/Theme.Holo" />
+
+
+    <style name="MapEnrichmentEditingTheme" parent="@*com.google.android.apps.photos:style/Theme.Photos.NoTitle">
+        <item name="*com.google.android.apps.photos:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+</resources>

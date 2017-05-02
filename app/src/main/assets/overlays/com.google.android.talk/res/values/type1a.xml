@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="outgoing_conversation_bubble_background">#ff388e3c</color>
+    <color name="outgoing_conversation_bubble_background_otr">#ff388e3c</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="letter_tile_colors">
+        <item>#ff388e3c</item>
+        <item>#ff455a64</item>
+        <item>#ff512da8</item>
+        <item>#ffd32f2f</item>
+        <item>#ff689f38</item>
+        <item>#ff1976d2</item>
+        <item>#ffe64a19</item>
+        <item>#fff57c00</item>
+    </array>
+</resources>

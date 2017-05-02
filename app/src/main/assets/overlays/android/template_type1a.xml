@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_deep_teal_200">{primaryColor}</color>
+    <color name="material_deep_teal_500">{primaryColorDark}</color>
+    <color name="accent_material_dark">{primaryColorDark}</color>
+    <color name="accent_material_light">{primaryColorDark}</color>
+</resources>

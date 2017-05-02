@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.Slack.ui.widgets.profile.TouchlessScrollView android:id="@*com.Slack:id/content_scroller" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.Slack">
+    <com.Slack.ui.widgets.profile.AppProfileFieldsLayout android:id="@*com.Slack:id/fields" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.Slack.ui.widgets.profile.AppProfileFieldView android:id="@*com.Slack:id/profile_about" android:layout_width="fill_parent" android:layout_height="wrap_content" app:label="@*com.Slack:string/app_label_about" />
+    </com.Slack.ui.widgets.profile.AppProfileFieldsLayout>
+</com.Slack.ui.widgets.profile.TouchlessScrollView>

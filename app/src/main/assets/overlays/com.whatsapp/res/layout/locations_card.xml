@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/locations_card" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@*com.whatsapp:drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" style="@*com.whatsapp:style/FlatCardHeader">
+            <TextView android:text="@*com.whatsapp:string/group_locations" style="@*com.whatsapp:style/FlatCardTitle" />
+            <TextView android:id="@*com.whatsapp:id/locations_info" style="@*com.whatsapp:style/FlatCardInfo" />
+        </FrameLayout>
+        <RelativeLayout android:id="@*com.whatsapp:id/locations_btn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:gravity="center_vertical" android:id="@*com.whatsapp:id/locations_scroller" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:overScrollMode="never" android:layerType="software">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.whatsapp:id/location_thumbs" android:background="@*com.whatsapp:drawable/selector_orange_gradient" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@*com.whatsapp:drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
+</LinearLayout>

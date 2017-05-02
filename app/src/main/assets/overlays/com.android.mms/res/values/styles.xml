@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ListViewStyle" parent="@*android:style/Widget.Material.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@*android:style/Theme.Material">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">@null</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="ChipTextViewLayoutStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHighlight">#ffff4444</item>
+        <item name="android:textColorHint">#acffffff</item>
+        <item name="android:textColorLink">#ff03a9f4</item>
+    </style>
+    <style name="TextAppearance.SearchResult" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHint">#acffffff</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle" parent="@style/TextAppearance.SearchResult">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#acffffff</item>
+    </style>
+    <style name="MmsTheme" parent="@*android:style/Theme.Material">
+        <item name="android:colorPrimary">#ff388e3c</item>
+        <item name="android:colorPrimaryDark">#ff1b5e20</item>
+        <item name="android:colorAccent">#ff388e3c</item>
+    </style>
+    <style name="HeaderTheme" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:spinnerDropDownItemStyle">@style/HeaderSpinnerDropDown</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:popupTheme">@*android:style/ThemeOverlay.Material</item>
+    </style>
+    <style name="HeaderSpinnerDropDown" parent="@*android:style/Widget.Material.DropDownItem.Spinner">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="WidgetTitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#acffffff</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsStyle" parent="@*android:style/Theme.Material">
+        <item name="android:actionBarStyle">@*com.google.android.apps.hangouts:style/SettingsActionBarStyle</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#ffdddddd</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="SettingsActionBarStyle" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:background">#ff388e3c</item>
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+    </style>
+    <style name="Theme.DialerPromo" parent="@*com.google.android.apps.hangouts:style/Theme.AppCompat">
+        <item name="android:background">#ff388e3c</item>
+        <item name="android:colorPrimaryDark">#ff1b5e20</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimary">#ff388e3c</item>
+        <item name="android:colorPrimaryDark">#ff1b5e20</item>
+        <item name="android:colorAccent">#ff388e3c</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimary">#ff388e3c</item>
+        <item name="android:colorPrimaryDark">#ff1b5e20</item>
+        <item name="android:colorAccent">#ff388e3c</item>
+    </style>
+    <style name="EsActionBar" parent="@*android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:background">#ff388e3c</item>
+        <item name="android:logo">@*android:color/transparent</item>
+        <item name="android:titleTextStyle">@*com.google.android.apps.hangouts:style/EsActionBar.Title</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+
+    <style name="Hangouts.Fauxbar" parent="@*com.google.android.apps.hangouts:style/Hangouts.Snackbar">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:minHeight">56.0dip</item>
+        <item name="*com.google.android.apps.hangouts:messageTextColor">@*android:color/white</item>
+        <item name="*com.google.android.apps.hangouts:actionTextColor">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Theme.EmeraldSea.Settings" parent="@*android:style/Theme.Material">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:actionBarStyle">@*com.google.android.apps.hangouts:style/EsActionBar</item>
+    </style>
+    <style name="Theme.InCallDialpad" parent="@*android:style/Theme.Material.Dialog.NoActionBar" />
+    <style name="Theme.Hangout.IncomingRing" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.ShareDialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorPrimary">#ff388e3c</item>
+        <item name="android:colorPrimaryDark">#ff1b5e20</item>
+        <item name="android:colorAccent">#ff388e3c</item>
+    </style>
+    <style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
+
+
+    <style name="RealTimeChat.ConversationHeader.ConversationName" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RealTimeChat.ParticipantHeader.ParticipantCount" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RealTimeChat.Message.Author" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="InCallMessage.Name" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textSize">@*com.google.android.apps.hangouts:dimen/in_call_message_name_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:alpha">1.00</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="InCallMessage.Text" parent="@*com.google.android.apps.hangouts:style/Theme.EmeraldSea">
+        <item name="android:textSize">@*com.google.android.apps.hangouts:dimen/in_call_message_text_size</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:alpha">1.00</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="LastReadIndicatorMessageTextStyle">
+        <item name="android:textSize">@*com.google.android.apps.hangouts:dimen/last_read_message_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@*com.google.android.apps.hangouts:dimen/last_read_message_text_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.apps.hangouts:dimen/last_read_message_text_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="LastReadIndicatorLineViewStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@*com.google.android.apps.hangouts:dimen/last_read_message_line_height</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>

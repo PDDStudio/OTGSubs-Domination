@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@*com.chrome.dev:id/bookmark_drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.chromium.chrome.browser.widget.selection.SelectableListLayout android:id="@*com.chrome.dev:id/selectable_list" android:background="@*com.chrome.dev:color/default_primary_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.chromium.chrome.browser.bookmarks.BookmarkDrawerListView android:layout_gravity="start" android:id="@*com.chrome.dev:id/bookmark_drawer_list" android:background="@*android:color/background_dark" android:layout_width="@*com.chrome.dev:dimen/drawer_width" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

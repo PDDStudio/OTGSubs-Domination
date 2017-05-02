@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" style="@*com.instagram.android:style/ActionBar.Modal">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@*com.instagram.android:id/button_back" android:src="@*com.instagram.android:drawable/nav_arrow_back" android:contentDescription="@*com.instagram.android:string/back" style="@*com.instagram.android:style/ActionBarButton.Modal" />
+        <com.instagram.ui.text.TitleTextView android:id="@*com.instagram.android:id/action_bar_textview_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@*com.instagram.android:string/advanced_settings" android:layout_weight="1.0" style="@*com.instagram.android:style/ActionBarTitle.Whiteout" />
+    </LinearLayout>
+    <ListView android:id="@*android:id/list" android:background="@*android:color/background_dark" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@*com.instagram.android:dimen/action_bar_height" style="@*com.instagram.android:style/ListViewStyle" />
+    <include layout="@*com.instagram.android:layout/action_bar_shadow" />
+</FrameLayout>

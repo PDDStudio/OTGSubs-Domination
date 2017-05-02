@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+    <style name="CardViewStyle.Dark" parent="@*com.topjohnwu.magisk:style/CardView">
+        <item name="*com.topjohnwu.magisk:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="CardViewStyle.Light" parent="@*com.topjohnwu.magisk:style/CardView">
+        <item name="*com.topjohnwu.magisk:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+
+</resources>

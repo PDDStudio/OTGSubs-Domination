@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rich_notification_bg">@*android:color/background_dark</color>
+    <color name="rich_notification_disabled_icon">#88ffffff</color>
+    <color name="rich_notification_divider">@*android:color/accent_material_dark</color>
+    <color name="rich_notification_icon">@*android:color/accent_material_dark</color>
+    <color name="rich_notification_icon_thumbed">@*android:color/accent_material_dark</color>
+
+
+</resources>

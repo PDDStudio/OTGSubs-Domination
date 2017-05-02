@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
+    <style name="Platform.AppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+
+    <style name="BottomBarItemHorizontal">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_12</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@*com.google.android.apps.plus:dimen/navigation_bar_y_padding</item>
+        <item name="android:paddingBottom">@*com.google.android.apps.plus:dimen/navigation_bar_y_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@*com.google.android.apps.plus:dimen/navigation_bar_x_drawable_padding</item>
+    </style>
+    <style name="BottomBarItemVertical">
+        <item name="android:textSize">@*com.google.android.apps.plus:dimen/text_size_12</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.google.android.apps.plus:drawable/bottom_bar_item_ripple</item>
+        <item name="android:paddingTop">@*com.google.android.apps.plus:dimen/navigation_bar_y_top_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@*com.google.android.apps.plus:dimen/navigation_bar_y_drawable_padding</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@*android:style/ThemeOverlay.Material.Dark">
+        <item name="colorControlHighlight">@*android:color/ripple_material_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="colorControlNormal">@*android:color/white</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@*android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="colorControlNormal">@*android:color/white</item>
+    </style>
+
+    <style name="UrawTheme" parent="@*android:style/Theme.Material">
+       <item name="android:colorControlActivated">#ff1976d2</item>
+    </style>
+
+
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.google.android.apps.plus:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*com.google.android.apps.plus:behavior_peekHeight">auto</item>
+        <item name="*com.google.android.apps.plus:behavior_hideable">true</item>
+        <item name="*com.google.android.apps.plus:behavior_skipCollapsed">false</item>
+    </style>
+</resources>

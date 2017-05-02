@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@*android:color/button_material_dark" />
+            <corners android:bottomRightRadius="@*com.instagram.android:dimen/dialog_corner_radius" />
+        </shape>
+    </item>
+</selector>

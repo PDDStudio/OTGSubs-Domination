@@ -1,0 +1,9 @@
+{
+	"name" : "xyz",
+	"author" : "xyz",
+	"templateFile" : "template_type1a.xml",
+	"themes" : {
+		"primaryColor" : "#ff2196f3",
+		"primaryColorDark" : "#ff1976d2"
+	}
+}

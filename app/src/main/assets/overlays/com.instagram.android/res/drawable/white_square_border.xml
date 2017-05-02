@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@*android:color/button_material_dark" />
+    <stroke android:width="@*com.instagram.android:dimen/button_border_stroke_thick" android:color="#ff555555" />
+    <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
+</shape>

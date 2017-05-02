@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="#4dffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <color android:color="@*android:color/button_material_dark" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@*com.google.android.youtube:dimen/lc_button_corner_radius" />
+            <stroke android:width="@*com.google.android.youtube:dimen/lc_button_border_size" android:color="#ff555555" />
+        </shape>
+    </item>
+</ripple>

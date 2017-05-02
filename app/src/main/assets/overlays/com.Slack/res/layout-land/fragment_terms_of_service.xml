@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.Slack.ui.widgets.SlidingRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.Slack">
+    <WebView android:id="@*com.Slack:id/tos_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@*com.Slack:id/shadow_reverse" />
+    <ImageView android:id="@*com.Slack:id/shadow_reverse" android:layout_width="fill_parent" android:layout_height="@*com.Slack:dimen/join_team_tos_shadow_height" android:src="@*com.Slack:drawable/shadow_reverse" android:layout_above="@*com.Slack:id/button_container" />
+    <LinearLayout android:orientation="horizontal" android:id="@*com.Slack:id/button_container" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="@*com.Slack:dimen/join_team_tos_button_container_height" android:baselineAligned="true" android:layout_alignParentBottom="true">
+        <TextView android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@*com.Slack:dimen/join_team_landscape_margin" android:text="@*com.Slack:string/join_team_terms_of_service_disclaimer" android:layout_weight="30.0" />
+        <TextView android:textColor="@*com.Slack:color/white" android:layout_gravity="center_vertical" android:id="@*com.Slack:id/next_button" android:paddingTop="@*com.Slack:dimen/join_team_button_padding_vertical" android:paddingBottom="@*com.Slack:dimen/join_team_button_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@*com.Slack:string/join_team_terms_of_service_agree" android:textAllCaps="false" style="@*com.Slack:style/JoinTeamFilledButtonStyleGreen" fontPath="fonts/Lato-Bold.ttf" />
+    </LinearLayout>
+</com.Slack.ui.widgets.SlidingRelativeLayout>
