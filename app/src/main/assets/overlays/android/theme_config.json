@@ -1,9 +1,29 @@
 {
-	"name" : "xyz",
-	"author" : "xyz",
-	"templateFile" : "template_type1a.xml",
-	"themes" : {
-		"primaryColor" : "#ff2196f3",
-		"primaryColorDark" : "#ff1976d2"
-	}
+	"themeName" : "xyz",
+	"themeAuthor" : "xyz",
+	"themeTemplates" : [
+		{
+			"id" : "accentColorTemplate",
+			"title" : "Accent Colors",
+			"description" : "Choose your favorite Accent Colors",
+			"templateFile" : "template_type1a.xml",
+			"templateType" : "type1a",
+			"themes" : {
+				"primaryColor" : "#ff2196f3",
+				"primaryColorDark" : "#ff1976d2"
+			}
+		},
+	 	{
+	 		"id" : "backgroundColorTemplate",
+			"title" : "Background Colors",
+			"description" : "Choose your favorite Background Colors",
+			"templateFile" : "template_type1b.xml",
+			"templateType" : "type1b",
+			"themes" : {
+				"backgroundColor" : "#ff2196f3",
+				"backgroundColorDark" : "#ff1976d2",
+				"buttonColor" : "#ff219601"
+			}
+		}
+	]
 }
