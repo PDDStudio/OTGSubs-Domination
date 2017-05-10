@@ -1,12 +1,12 @@
 ## OTGSubs Demo Theme
 
-Based on Domination by @daveyannihilation
+Based on Domination by [@daveyannihilation](https://github.com/daveyannihilation)
 
 Original Source: [here](https://github.com/daveyannihilation/Domination)
 
 The latest OTGSubs compatible Version can be found in the [Release Section](https://github.com/PDDStudio/OTGSubs-Domination/releases)
 
-All credits and copyright still belong to @daveyannihilation
+All credits and copyright still belong to [@daveyannihilation](https://github.com/daveyannihilation)
 
 OTGSubs Repository: [Link](https://github.com/PDDStudio/OTGSubs)
 
