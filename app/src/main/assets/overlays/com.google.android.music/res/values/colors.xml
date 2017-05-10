@@ -306,4 +306,8 @@
     <color name="side_drawer_icon_color">#ffffffff</color>
     <color name="side_drawer_icon_selected_color">#ffe64a19</color>
     <color name="play_music_primary_v2">#ffe64a19</color>
+
+    <color name="mbs_icon_color">#ffffffff</color>
+    <color name="remote_search_clusters_header_border_color">#ffffffff</color>
+    <color name="remote_search_clusters_header_text_color">#ffffffff</color>
 </resources>

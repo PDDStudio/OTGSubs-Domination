@@ -315,6 +315,14 @@
         <flag name="top" value="0x00000030" />
         <flag name="all" value="0x00000077" />
     </attr>
+    <attr name="curvedEdge">
+        <enum name="bottom" value="1" />
+        <enum name="end" value="3" />
+        <enum name="start" value="2" />
+        <enum name="top" value="0" />
+    </attr>
+    <attr name="curveOffset" format="float" />
+    <attr name="backgroundColor" format="color" />
     <attr name="shift_state_unshifted" format="boolean" />
     <attr name="shift_state_shifted" format="boolean" />
     <attr name="shift_state_capslocked" format="boolean" />

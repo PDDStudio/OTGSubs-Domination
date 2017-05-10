@@ -188,4 +188,10 @@
     <color name="physical_web_diags_success_color">#ff388e3c</color>
     <color name="physical_web_diags_failure_color">#ffd32f2f</color>
     <color name="physical_web_diags_indeterminate_color">#fffbc02d</color>
+
+
+    <color name="page_info_popup_text">#ffffffff</color>
+    <color name="page_info_popup_text_link">#ff1976d2</color>
+    <color name="data_reduction_breakdown_text_color">#ffffffff</color>
+    <color name="data_reduction_breakdown_light_text_color">#ffffffff</color>
 </resources>

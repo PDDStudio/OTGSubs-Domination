@@ -285,4 +285,10 @@
     <color name="typing_preferences_primary_dark">#ff311b92</color>
     <color name="warm_welcome_primary_text">#ffffffff</color>
 
+
+    <color name="dark_emoji_panel_accented_background">@*android:color/button_material_dark</color>
+    <color name="dark_emoji_panel_main_background">@*android:color/background_floating_material_dark</color>
+    <color name="dialog_default_text_color">#ffffffff</color>
+    <color name="light_emoji_panel_accented_background">@*android:color/button_material_dark</color>
+    <color name="light_emoji_panel_main_background">@*android:color/background_floating_material_dark</color>
 </resources>

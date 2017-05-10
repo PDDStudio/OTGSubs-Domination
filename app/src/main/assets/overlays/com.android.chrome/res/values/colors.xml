@@ -188,4 +188,8 @@
     <color name="signin_head_background">@*android:color/background_dark</color>
     <color name="signin_body_background">@*android:color/primary_material_dark</color>
     <color name="signin_border_line_color">#ff555555</color>
+
+
+    <color name="tile_view_text">#ffffffff</color>
+    <color name="tile_view_offline_badge_tint">#ff1976d2</color>
 </resources>

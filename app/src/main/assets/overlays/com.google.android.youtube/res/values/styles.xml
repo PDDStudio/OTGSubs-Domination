@@ -304,4 +304,13 @@
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="android:windowAnimationStyle">@*com.google.android.youtube:style/CreationEntryDialogAnimation</item>
     </style>
+
+
+    <style name="LcAlertDialog" parent="@*com.google.android.youtube:style/Theme.AppCompat.Light.Dialog.Alert" />
+    <style name="LcAlertDialog.TextAppearanceSubhead" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="LcAlertDialog.TextAppearanceTitle" parent="@*com.google.android.youtube:style/TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
 </resources>

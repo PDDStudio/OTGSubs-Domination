@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.Material" />
+
+
+    <style name="PlayAdLabelBaseline" parent="@*com.google.android.instantapps.supervisor:style/PlayMediumPlainText">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:background">@*com.google.android.instantapps.supervisor:drawable/play_ad_label</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="PlayCardLabel" parent="@*com.google.android.instantapps.supervisor:style/PlayPlainText">
+        <item name="android:textSize">@*com.google.android.instantapps.supervisor:dimen/play_medium_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">4.0dip</item>
+    </style>
+
+    <style name="PlayClusterMore" parent="@*com.google.android.instantapps.supervisor:style/PlayMediumBoldText">
+        <item name="android:textSize">@*com.google.android.instantapps.supervisor:dimen/play_cluster_header_more_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:paddingLeft">@*com.google.android.instantapps.supervisor:dimen/play_cluster_header_more_xpadding</item>
+        <item name="android:paddingTop">@*com.google.android.instantapps.supervisor:dimen/play_cluster_header_more_top_padding</item>
+        <item name="android:paddingRight">@*com.google.android.instantapps.supervisor:dimen/play_cluster_header_more_xpadding</item>
+        <item name="android:paddingBottom">@*com.google.android.instantapps.supervisor:dimen/play_cluster_header_more_bottom_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardBackgroundColor">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardCornerRadius">@*com.google.android.instantapps.supervisor:dimen/play_action_button_corner</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardElevation">1.0dip</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardInset">0.0dip</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardClipToOutline">true</item>
+    </style>
+
+
+    <style name="PlayDrawerDockedAction" parent="@*com.google.android.instantapps.supervisor:style/PlayDrawerBaseText">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ff555555</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="PlayDrawerList">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:cacheColorHint">@*android:color/background_floating_material_dark</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="PlayDrawerProfileEmailText" parent="@*com.google.android.instantapps.supervisor:style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="PlayDrawerProfileNameText" parent="@*com.google.android.instantapps.supervisor:style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+
+    <style name="PlayDrawerSelectedText" parent="@*com.google.android.instantapps.supervisor:style/PlayDrawerBaseText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#ff555555</item>
+    </style>
+
+    <style name="PlayHappinessSurvey" parent="@*com.google.android.instantapps.supervisor:style/PlayCardViewGroup">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">@*com.google.android.instantapps.supervisor:dimen/play_happiness_survey_outer_padding</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">@*com.google.android.instantapps.supervisor:dimen/play_happiness_survey_outer_padding</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardBackgroundColor">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.instantapps.supervisor:playCardInset">0.0dip</item>
+    </style>
+
+    <style name="PlayOnboardSimpleQuizCardListView">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_simple_quiz_list_side_padding</item>
+        <item name="android:paddingRight">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_simple_quiz_list_side_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">@*android:color/background_floating_material_dark</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+
+    <style name="PlayOnboardV2TutorialPageBodyParent" parent="@*com.google.android.instantapps.supervisor:style/PlayDetailDescription">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:layout_marginLeft">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_v2_tutorial_page_side_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_v2_tutorial_page_side_margin</item>
+    </style>
+
+    <style name="PlayOnboardV2TutorialPageTitleParent" parent="@*com.google.android.instantapps.supervisor:style/PlayPlainText">
+        <item name="android:textSize">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_v2_tutorial_page_title_text_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:layout_marginLeft">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_v2_tutorial_page_side_margin</item>
+        <item name="android:layout_marginRight">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_v2_tutorial_page_side_margin</item>
+        <item name="android:lineSpacingExtra">@*com.google.android.instantapps.supervisor:dimen/play_onboard__onboard_v2_tutorial_page_title_extra_line_spacing</item>
+    </style>
+
+    <style name="PlayPopupSelector" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*com.google.android.instantapps.supervisor:style/PlayPopupSelectorAnimation</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateUnchanged</item>
+    </style>
+
+    <style name="Theme.SemiTranslucent" parent="@*android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:background">#44000000</item>
+    </style>
+
+
+    <style name="ThemeOverlay.Text.DialogSubtitle" parent="@*com.google.android.instantapps.supervisor:style/ThemeOverlay.Text">
+        <item name="android:textSize">@*com.google.android.instantapps.supervisor:dimen/opt_in_dialog_subtitle_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+
+</resources>

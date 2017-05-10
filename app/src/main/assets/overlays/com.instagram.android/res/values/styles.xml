@@ -105,7 +105,6 @@
         <item name="*com.instagram.android:backgroundNotificationBadge">@*com.instagram.android:drawable/notification_bubble_whiteout</item>
         <item name="*com.instagram.android:defaultSpinnerStyle">@*com.instagram.android:style/SpinnerTextStyle.Whiteout</item>
         <item name="*com.instagram.android:segmentedUnderlineWidth">@*com.instagram.android:dimen/segmented_underline_width_whiteout</item>
-        <item name="*com.instagram.android:igBadgeViewStyle">@*com.instagram.android:style/IgBadgeViewStyle</item>
         <item name="*com.instagram.android:igSwitchStyle">@*com.instagram.android:style/IgSwitchStyle</item>
     </style>
     <style name="IgBadgeViewStyle" parent="@*com.instagram.android:style/TextViewStyle">
@@ -216,7 +215,6 @@
     </style>
     <style name="Theme.Instagram" parent="@*com.instagram.android:style/Base.Theme.Instagram">
         <item name="*com.instagram.android:defaultDividerStyle">@*com.instagram.android:style/Widget.Instagram.Divider.Hidden</item>
-        <item name="*com.instagram.android:triangleSpinnerStyle">@*com.instagram.android:style/Widget.TriangleSpinner.Whiteout</item>
         <item name="*com.instagram.android:primaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton</item>
         <item name="*com.instagram.android:secondaryButtonStyle">@*com.instagram.android:style/IgSecondaryButton</item>
         <item name="*com.instagram.android:inversePrimaryButtonStyle">@*com.instagram.android:style/IgPrimaryButton.Inverse</item>
@@ -241,9 +239,20 @@
         <item name="*com.instagram.android:headline1">@*com.instagram.android:style/Headline1</item>
         <item name="*com.instagram.android:headline2">@*com.instagram.android:style/Headline2</item>
         <item name="*com.instagram.android:section">@*com.instagram.android:style/Section</item>
+        <item name="*com.instagram.android:label">@*com.instagram.android:style/Label</item>
+        <item name="*com.instagram.android:labelLink">@*com.instagram.android:style/LabelLink</item>
         <item name="*com.instagram.android:titleText">@*com.instagram.android:style/Title</item>
         <item name="*com.instagram.android:titleInactive">@*com.instagram.android:style/TitleInactive</item>
         <item name="*com.instagram.android:titleButtonPrimary">@*com.instagram.android:style/TitleButtonPrimary</item>
+        <item name="*com.instagram.android:rowPadding">0.0dip</item>
+        <item name="*com.instagram.android:rowTextPadding">@*com.instagram.android:dimen/row_padding</item>
+        <item name="*com.instagram.android:rowHeight">@*com.instagram.android:style/RowHeight</item>
+        <item name="*com.instagram.android:rowTextStyle">@*com.instagram.android:style/Label</item>
+        <item name="*com.instagram.android:rowDetailStyle">@*com.instagram.android:style/BodyDetail</item>
+        <item name="*com.instagram.android:rowHeaderDivider">@*com.instagram.android:style/RowHeaderDivider</item>
+        <item name="*com.instagram.android:rowBadge">@*com.instagram.android:style/RowBadge</item>
+        <item name="*com.instagram.android:rowDetailBoldText">@*com.instagram.android:style/BodyDetail</item>
+        <item name="*com.instagram.android:triangleSpinnerStyle">@*com.instagram.android:style/Widget.TriangleSpinner.Whiteout</item>
         <item name="*com.instagram.android:defaultActionBarBackground">@*android:color/primary_material_dark</item>
         <item name="*com.instagram.android:defaultActionBarForegroundPressedColor">@*android:color/dim_foreground_light</item>
         <item name="*com.instagram.android:defaultActionBarDividerColor">@*android:color/transparent</item>

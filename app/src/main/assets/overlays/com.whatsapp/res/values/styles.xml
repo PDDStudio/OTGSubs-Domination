@@ -156,6 +156,14 @@
         <item name="*com.whatsapp:colorAccent">@*com.whatsapp:color/accent</item>
         <item name="*com.whatsapp:textColorError">@*com.whatsapp:color/design_textinput_error_color_light</item>
     </style>
+    <style name="Theme.App.ChatInfo" parent="@*com.whatsapp:style/Theme.App">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_dark</item>
+        <item name="*com.whatsapp:windowActionBar">false</item>
+        <item name="*com.whatsapp:windowNoTitle">true</item>
+        <item name="*com.whatsapp:actionOverflowButtonStyle">@*com.whatsapp:style/OverFlowWithShadow</item>
+        <item name="*com.whatsapp:homeAsUpIndicator">@*com.whatsapp:drawable/ic_back_shadow</item>
+    </style>
     <style name="Theme.App.GalleryPicker" parent="@*com.whatsapp:style/Theme.App">
         <item name="android:windowBackground">@*android:color/background_dark</item>
         <item name="*com.whatsapp:actionOverflowButtonStyle">@*com.whatsapp:style/OverFlowLight</item>

@@ -71,8 +71,17 @@
         <enum name="light" value="1" />
     </attr>
     <attr name="scopeUris" format="reference|string" />
+    <attr name="suwHasStableIds" format="reference|boolean" />
     <attr name="suwLayoutTheme" format="reference" />
     <attr name="suwMarginSides" format="reference|dimension" />
+    <attr name="suwGlifHeaderGravity">
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+    </attr>
     <attr name="suwCardBackground" format="reference|color" />
     <attr name="suwDividerCondition">
         <enum name="both" value="1" />
@@ -83,13 +92,23 @@
     <attr name="suwNavBarButtonBackground" format="reference|color" />
     <attr name="suwNavBarTextColor" format="color" />
     <attr name="suwNavBarTheme" format="reference" />
+    <attr name="suwScrollIndicators">
+        <flag name="bottom" value="0x00000002" />
+        <flag name="top" value="0x00000001" />
+        <flag name="none" value="0x00000000" />
+        <flag name="end" value="0x00000020" />
+        <flag name="left" value="0x00000004" />
+        <flag name="right" value="0x00000008" />
+        <flag name="start" value="0x00000010" />
+    </attr>
     <attr name="suwColorPrimary" format="color" />
     <attr name="suwHeader" format="reference" />
-    <attr name="suwHeaderText" format="string" localization="suggested" />
     <attr name="suwDividerInset" format="reference|dimension" />
     <attr name="suwItemDescriptionStyle" format="reference" />
     <attr name="suwAspectRatio" format="float" />
-    <attr name="suwHeaderColor" format="reference|color" />
+    <attr name="suwBackgroundPatterned" format="boolean" />
+    <attr name="suwBackgroundBaseColor" format="color" />
+    <attr name="suwFooter" format="reference" />
     <attr name="suwStatusBarBackground" format="reference|color" />
     <attr name="suwBackground" format="reference|color" />
     <attr name="suwBackgroundTile" format="reference|color" />
@@ -99,7 +118,10 @@
     <attr name="suwIllustrationHorizontalTile" format="reference|color" />
     <attr name="suwIllustrationImage" format="reference|color" />
     <attr name="suwContainer" format="reference" />
-    <attr name="suwHasStableIds" format="reference|boolean" />
+    <attr name="suwHeaderText" format="string" localization="suggested" />
+    <attr name="suwHeaderColor" format="reference|color" />
+    <attr name="suwCollapsedSummary" format="string" localization="suggested" />
+    <attr name="suwExpandedSummary" format="string" localization="suggested" />
     <attr name="avatarPosition">
         <enum name="end" value="0" />
         <enum name="start" value="1" />
@@ -139,18 +161,18 @@
     <attr name="layout_gravity">
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
+        <flag name="center_horizontal" value="0x00000001" />
         <flag name="end" value="0x00800005" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
         <flag name="start" value="0x00800003" />
         <flag name="center" value="0x00000011" />
-        <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
         <flag name="clip_horizontal" value="0x00000008" />
         <flag name="clip_vertical" value="0x00000080" />
         <flag name="fill" value="0x00000077" />
-        <flag name="fill_horizontal" value="0x00000007" />
         <flag name="fill_vertical" value="0x00000070" />
-        <flag name="left" value="0x00000003" />
-        <flag name="right" value="0x00000005" />
     </attr>
     <attr name="cardBackgroundColor" format="color" />
     <attr name="cardCornerRadius" format="dimension" />
@@ -219,15 +241,23 @@
     <attr name="listItemLayout" format="reference" />
     <attr name="showTitle" format="boolean" />
     <attr name="srcCompat" format="reference" />
-    <attr name="tickMark" format="reference" />
-    <attr name="tickMarkTint" format="color" />
-    <attr name="tickMarkTintMode">
-        <enum name="add" value="16" />
+    <attr name="tint" format="color" />
+    <attr name="tintMode">
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
+    </attr>
+    <attr name="tickMark" format="reference" />
+    <attr name="tickMarkTint" format="color" />
+    <attr name="tickMarkTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
     </attr>
     <attr name="textAllCaps" format="reference|boolean" />
     <attr name="windowActionBar" format="boolean" />
@@ -308,6 +338,7 @@
     <attr name="dropDownListViewStyle" format="reference" />
     <attr name="listPopupWindowStyle" format="reference" />
     <attr name="textAppearanceListItem" format="reference" />
+    <attr name="textAppearanceListItemSecondary" format="reference" />
     <attr name="textAppearanceListItemSmall" format="reference" />
     <attr name="panelBackground" format="reference" />
     <attr name="panelMenuListWidth" format="dimension" />
@@ -402,22 +433,22 @@
     <attr name="submitBackground" format="reference" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
-        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
     </attr>
     <attr name="track" format="reference" />
     <attr name="trackTint" format="color" />
     <attr name="trackTintMode">
-        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
+        <enum name="add" value="16" />
     </attr>
     <attr name="thumbTextPadding" format="dimension" />
     <attr name="switchTextAppearance" format="reference" />
@@ -504,36 +535,36 @@
     <attr name="layout_anchorGravity">
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
+        <flag name="center_horizontal" value="0x00000001" />
         <flag name="end" value="0x00800005" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
         <flag name="start" value="0x00800003" />
         <flag name="center" value="0x00000011" />
-        <flag name="center_horizontal" value="0x00000001" />
         <flag name="center_vertical" value="0x00000010" />
         <flag name="clip_horizontal" value="0x00000008" />
         <flag name="clip_vertical" value="0x00000080" />
         <flag name="fill" value="0x00000077" />
-        <flag name="fill_horizontal" value="0x00000007" />
         <flag name="fill_vertical" value="0x00000070" />
-        <flag name="left" value="0x00000003" />
-        <flag name="right" value="0x00000005" />
     </attr>
     <attr name="layout_insetEdge">
         <enum name="bottom" value="80" />
         <enum name="top" value="48" />
         <enum name="none" value="0" />
         <enum name="end" value="8388613" />
-        <enum name="start" value="8388611" />
         <enum name="left" value="3" />
         <enum name="right" value="3" />
+        <enum name="start" value="8388611" />
     </attr>
     <attr name="layout_dodgeInsetEdges">
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
         <flag name="none" value="0x00000000" />
         <flag name="end" value="0x00800005" />
-        <flag name="start" value="0x00800003" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000003" />
+        <flag name="start" value="0x00800003" />
         <flag name="all" value="0x00000077" />
     </attr>
     <attr name="hintTextAppearance" format="reference" />
@@ -584,26 +615,26 @@
     <attr name="collapsedTitleGravity">
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
-        <flag name="end" value="0x00800005" />
-        <flag name="start" value="0x00800003" />
-        <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
-        <flag name="center_vertical" value="0x00000010" />
-        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="end" value="0x00800005" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="fill_vertical" value="0x00000070" />
     </attr>
     <attr name="expandedTitleGravity">
         <flag name="bottom" value="0x00000050" />
         <flag name="top" value="0x00000030" />
-        <flag name="end" value="0x00800005" />
-        <flag name="start" value="0x00800003" />
-        <flag name="center" value="0x00000011" />
         <flag name="center_horizontal" value="0x00000001" />
-        <flag name="center_vertical" value="0x00000010" />
-        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="end" value="0x00800005" />
         <flag name="left" value="0x00000003" />
         <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="fill_vertical" value="0x00000070" />
     </attr>
     <attr name="titleEnabled" format="boolean" />
     <attr name="layout_collapseMode">

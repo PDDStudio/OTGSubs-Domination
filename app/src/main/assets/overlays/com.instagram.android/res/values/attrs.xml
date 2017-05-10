@@ -72,17 +72,6 @@
     <attr name="active" format="color" />
     <attr name="active_alpha" format="integer" min="0" max="255" />
     <attr name="disabled_alpha" format="integer" min="0" max="255" />
-    <attr name="dark" format="boolean" />
-    <attr name="SeletedPicturePaddingRight" format="dimension" />
-    <attr name="triangleSpinnerStyle" format="reference" />
-    <attr name="triangleColor" format="color" />
-    <attr name="trianglePadding" format="dimension" />
-    <attr name="triangleSize" format="dimension" />
-    <attr name="triangleStyle">
-        <enum name="corner" value="0" />
-        <enum name="downward" value="1" />
-    </attr>
-    <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="primaryButtonStyle" format="reference" />
     <attr name="secondaryButtonStyle" format="reference" />
     <attr name="inversePrimaryButtonStyle" format="reference" />
@@ -95,6 +84,7 @@
     <attr name="state_grey" format="boolean" />
     <attr name="capitalize" format="boolean" />
     <attr name="medium" format="boolean" />
+    <attr name="fakeBold" format="boolean" />
     <attr name="body" format="reference" />
     <attr name="bodyEmphasized" format="reference" />
     <attr name="bodyDetail" format="reference" />
@@ -112,9 +102,30 @@
     <attr name="headline1" format="reference" />
     <attr name="headline2" format="reference" />
     <attr name="section" format="reference" />
+    <attr name="label" format="reference" />
+    <attr name="labelLink" format="reference" />
     <attr name="titleText" format="reference" />
     <attr name="titleInactive" format="reference" />
     <attr name="titleButtonPrimary" format="reference" />
+    <attr name="dark" format="boolean" />
+    <attr name="SeletedPicturePaddingRight" format="dimension" />
+    <attr name="rowPadding" format="dimension" />
+    <attr name="rowTextPadding" format="dimension" />
+    <attr name="rowHeight" format="reference" />
+    <attr name="rowTextStyle" format="reference" />
+    <attr name="rowDetailStyle" format="reference" />
+    <attr name="rowHeaderDivider" format="reference" />
+    <attr name="rowBadge" format="reference" />
+    <attr name="rowDetailBoldText" format="reference" />
+    <attr name="triangleSpinnerStyle" format="reference" />
+    <attr name="triangleColor" format="color" />
+    <attr name="trianglePadding" format="dimension" />
+    <attr name="triangleSize" format="dimension" />
+    <attr name="triangleStyle">
+        <enum name="corner" value="0" />
+        <enum name="downward" value="1" />
+    </attr>
+    <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="image" format="reference" />
     <attr name="errorImage" format="reference" />
     <attr name="colorFilter" format="reference|color" />
@@ -134,7 +145,6 @@
         <enum name="Loading" value="1" />
     </attr>
     <attr name="loadMoreAspectRatio" format="float" />
-    <attr name="igBadgeViewStyle" format="reference" />
     <attr name="igSwitchStyle" format="reference" />
     <attr name="thumbDrawable" format="reference" />
     <attr name="checkedDrawable" format="reference" />

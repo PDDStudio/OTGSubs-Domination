@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="SuwThemeGlifV2" parent="@*com.google.android.gm:style/SuwThemeGlif">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.google.android.gm:suwGlifHeaderGravity">center_horizontal</item>
+        <item name="*com.google.android.gm:suwScrollIndicators">bottom|top</item>
+        <item name="*com.google.android.gm:suwBackgroundPatterned">false</item>
+        <item name="*com.google.android.gm:suwBackgroundBaseColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="SuwThemeGlifV2.Light" parent="@*com.google.android.gm:style/SuwThemeGlif">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.google.android.gm:suwGlifHeaderGravity">center_horizontal</item>
+        <item name="*com.google.android.gm:suwScrollIndicators">bottom|top</item>
+        <item name="*com.google.android.gm:suwBackgroundPatterned">false</item>
+        <item name="*com.google.android.gm:suwBackgroundBaseColor">@*android:color/background_floating_material_dark</item>
+    </style>
+
+</resources>

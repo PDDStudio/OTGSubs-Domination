@@ -36,8 +36,8 @@
     <color name="photo_status_bar_black">#d9000000</color>
     <color name="photo_crop_dim_color">#cc000000</color>
     <color name="photo_crop_highlight_color">#ff555555</color>
-    <color name="circle_background">@*android:color/background_floating_material_dark</color>
-    <color name="line_background">#ffaaaaaa</color>
+    <color name="circle_background">@*android:color/button_material_dark</color>
+    <color name="line_background">#00000000</color>
     <color name="ampm_text_color">#ffffffff</color>
     <color name="done_text_color_normal">#ffffffff</color>
     <color name="done_text_color_disabled">#ffaaaaaa</color>
@@ -488,6 +488,7 @@
     <color name="voice_correction_foreground">#ffffffff</color>
     <color name="progress_bar_color">#ff1976d2</color>
     <color name="button_pressed_color">#ff777777</color>
+    <color name="compact_suggestion_background_pressed">#ff555555</color>
     <color name="contact_pill_background">@*android:color/background_floating_material_dark</color>
     <color name="letter_tile_default_color">#ff555555</color>
     <color name="letter_tile_font_color">#ffffffff</color>
@@ -716,6 +717,7 @@
     <color name="opa_text_secondary">#ffdddddd</color>
     <color name="opa_text_user">#ffffffff</color>
     <color name="opa_value_prop_divider">#00000000</color>
+    <color name="opa_suggestion_background_pressed">#ff555555</color>
 
     <color name="assistant_setting_agent_details_background">@*android:color/background_dark</color>
     <color name="assistant_setting_agent_details_body">#ffdddddd</color>
@@ -784,4 +786,7 @@
     <color name="search_queue_snackbar_action">#fffbc02d</color>
     <color name="search_queue_snackbar_message">#ffdddddd</color>
     <color name="search_queue_toolbar_background">#ff1976d2</color>
+
+    <color name="onboarding_suggestion_header_background">@*android:color/primary_material_dark</color>
+    <color name="embedded_module_background">@*android:color/background_floating_material_dark</color>
 </resources>

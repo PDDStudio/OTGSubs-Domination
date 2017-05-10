@@ -128,4 +128,11 @@
 
     <color name="quantum_grey200">@*android:color/primary_material_dark</color>
     <color name="quantum_grey300">@*android:color/primary_dark_material_dark</color>
+
+    <color name="app_pinned_button_icon">#ff1976d2</color>
+    <color name="app_unpinned_button_icon">#ffaaaaaa</color>
+    <color name="release_track_icon_alpha">#ff1976d2</color>
+    <color name="release_track_icon_beta">#fffbc02d</color>
+    <color name="release_track_icon_prod">#ff388e3c</color>
+    <color name="warning_card_icon">#ffe64a19</color>
 </resources>

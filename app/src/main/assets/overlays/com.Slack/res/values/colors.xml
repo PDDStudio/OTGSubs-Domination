@@ -154,7 +154,7 @@
     <color name="name_tag_background_unselected">#191976d2</color>
     <color name="name_tag_text_selected">#ffffffff</color>
     <color name="name_tag_text_unselected">#ff1976d2</color>
-    <color name="navy_blue">#ff0d47a1</color>
+    <color name="navy_blue">#ff1976d2</color>
     <color name="navy_blue_8p_alpha">#140d47a1</color>
     <color name="newmessagesrow_red">#ffd32f2f</color>
     <color name="newmessagesrow_red_transparent">#00d32f2f</color>

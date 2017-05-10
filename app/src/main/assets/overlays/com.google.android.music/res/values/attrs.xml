@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="MediaRouteControllerWindowBackground" format="reference" />
     <attr name="bind__isOwnedByParent" format="boolean" />
     <attr name="bind__supportsAnimationCapture" format="boolean" />
     <attr name="cropping_shape">
@@ -15,17 +14,15 @@
     <attr name="is_avatar_no_ring" format="boolean" />
     <attr name="mediaRouteAudioTrackDrawable" format="reference" />
     <attr name="mediaRouteButtonStyle" format="reference" />
-    <attr name="mediaRouteChooserPrimaryTextStyle" format="reference" />
-    <attr name="mediaRouteChooserSecondaryTextStyle" format="reference" />
     <attr name="mediaRouteCloseDrawable" format="reference" />
-    <attr name="mediaRouteControllerPrimaryTextStyle" format="reference" />
-    <attr name="mediaRouteControllerSecondaryTextStyle" format="reference" />
-    <attr name="mediaRouteControllerTitleTextStyle" format="reference" />
+    <attr name="mediaRouteControlPanelThemeOverlay" format="reference" />
     <attr name="mediaRouteDefaultIconDrawable" format="reference" />
     <attr name="mediaRoutePauseDrawable" format="reference" />
     <attr name="mediaRoutePlayDrawable" format="reference" />
     <attr name="mediaRouteSpeakerGroupIconDrawable" format="reference" />
     <attr name="mediaRouteSpeakerIconDrawable" format="reference" />
+    <attr name="mediaRouteStopDrawable" format="reference" />
+    <attr name="mediaRouteTheme" format="reference" />
     <attr name="mediaRouteTvIconDrawable" format="reference" />
     <attr name="title" format="string" />
     <attr name="zoom" format="fraction" />
@@ -78,6 +75,7 @@
     <attr name="multiChoiceItemLayout" format="reference" />
     <attr name="singleChoiceItemLayout" format="reference" />
     <attr name="listItemLayout" format="reference" />
+    <attr name="showTitle" format="boolean" />
     <attr name="expanded" format="boolean" />
     <attr name="state_collapsed" format="boolean" />
     <attr name="state_collapsible" format="boolean" />
@@ -638,6 +636,8 @@
     </attr>
     <attr name="overlapAnchor" format="boolean" />
     <attr name="state_above_anchor" format="boolean" />
+    <attr name="paddingBottomNoButtons" format="dimension" />
+    <attr name="paddingTopNoTitle" format="dimension" />
     <attr name="layoutManager" format="string" />
     <attr name="spanCount" format="integer" />
     <attr name="reverseLayout" format="boolean" />

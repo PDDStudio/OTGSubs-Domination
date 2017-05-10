@@ -253,4 +253,5 @@
     <color name="color_picker_swatch_border_color">#ff555555</color>
 
     <color name="keep_default_color">@*android:color/background_floating_material_dark</color>
+    <color name="default_fragment_background_color">@*android:color/background_floating_material_dark</color>
 </resources>

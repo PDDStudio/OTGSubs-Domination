@@ -6,7 +6,7 @@
     <include layout="@*com.whatsapp:layout/media_card" />
     <include layout="@*com.whatsapp:layout/actions_card" />
     <include layout="@*com.whatsapp:layout/locations_card" />
-    <LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/participants_card" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@*com.whatsapp:id/participants_card" android:backgroundTint="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <View android:background="@*com.whatsapp:drawable/list_separator_bot" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
         <FrameLayout android:background="@*android:color/background_dark" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" style="@*com.whatsapp:style/FlatCardHeader">
             <TextView android:id="@*com.whatsapp:id/participants_title" android:text="@*com.whatsapp:string/participants_title" style="@*com.whatsapp:style/FlatCardTitle" />

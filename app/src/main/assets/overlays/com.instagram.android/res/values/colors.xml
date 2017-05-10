@@ -91,4 +91,6 @@
 
     <color name="close_button_tint_color">#ffffffff</color>
 
+
+    <color name="share_screen_icon_color">#ffffffff</color>
 </resources>

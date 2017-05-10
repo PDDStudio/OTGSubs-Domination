@@ -83,4 +83,9 @@
         <item name="*com.chrome.beta:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
         <item name="*com.chrome.beta:colorAccent">@*com.chrome.beta:color/light_active_color</item>
     </style>
+
+
+    <style name="SearchActivityTheme" parent="@*com.chrome.beta:style/MainTheme">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+    </style>
 </resources>

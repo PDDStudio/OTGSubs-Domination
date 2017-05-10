@@ -203,4 +203,9 @@
     <color name="tile_view_offline_badge_tint">#ff1976d2</color>
 
     <color name="google_grey_600">#ffffffff</color>
+
+    <color name="page_info_popup_text">#ffffffff</color>
+    <color name="page_info_popup_text_link">#ff1976d2</color>
+    <color name="data_reduction_breakdown_text_color">#ffffffff</color>
+    <color name="data_reduction_breakdown_light_text_color">#ffffffff</color>
 </resources>

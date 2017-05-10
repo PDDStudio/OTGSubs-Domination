@@ -71,7 +71,7 @@
     <color name="dialpad_voicemail_tint">#ffdddddd</color>
     <color name="holo_list_background_color">@*android:color/background_dark</color>
     <color name="primary_text_color">#ffffffff</color>
-    <color name="section_header_text_color">#ffffffff</color>
+    <color name="section_header_text_color">#ff1976d2</color>
     <color name="secondary_header_separator_color">#00000000</color>
     <color name="people_app_theme_color">#ffffffff</color>
     <color name="dialtacts_theme_color">#ff1976d2</color>
@@ -208,4 +208,10 @@
     <color name="dialer_ripple_material_light">#4dffffff</color>
     <color name="gallery_item_background_color">@*android:color/background_floating_material_dark</color>
     <color name="gallery_item_image_color">@*android:color/accent_material_dark</color>
+
+    <color name="answered_call">#ff388e3c</color>
+    <color name="call_type_icon_color">#ffffffff</color>
+    <color name="dialer_secondary_color">#ffd32f2f</color>
+    <color name="dialpad_fab_green">#ff388e3c</color>
+    <color name="tab_selected_underline_color">#ffd32f2f</color>
 </resources>

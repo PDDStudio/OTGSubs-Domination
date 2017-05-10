@@ -89,4 +89,47 @@
         <item name="android:textColor">#ffffffff</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:drawablePadding">28.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+    <style name="LocationAddressTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="LocationAddressTitleTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="LocationLatLongTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="LocationLoadingTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PrimaryText">
+        <item name="android:textSize">@*com.google.android.dialer:dimen/call_details_primary_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="SecondaryText">
+        <item name="android:textSize">@*com.google.android.dialer:dimen/call_details_secondary_text_size</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:maxLines">1</item>
+    </style>
 </resources>

@@ -23,13 +23,7 @@
     <style name="CitiesTheme.ActionBar" parent="@*android:style/Widget.Material.ActionBar">
         <item name="android:displayOptions">useLogo</item>
     </style>
-    <style name="SettingsTheme.ActionBar" parent="@*android:style/Widget.Material.ActionBar">
-        <item name="android:displayOptions">showTitle|useLogo</item>
-        <item name="android:colorBackground">#ff512da8</item>
-    </style>
-    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
-        <item name="android:textSize">18.0sp</item>
-    </style>
+
 
     <style name="TextAppearance.StatusBar.EventContent" parent="@*com.android.deskclock:style/TextAppearance.StatusBar">
         <item name="android:textSize">@*com.android.deskclock:dimen/notification_text_size</item>

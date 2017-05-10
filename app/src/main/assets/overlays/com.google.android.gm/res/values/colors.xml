@@ -248,4 +248,15 @@
     <color name="smart_reply_text">#ff1976d2</color>
     <color name="smart_reply_callout_text">#ff1976d2</color>
 
+
+
+    <color name="ad_duffy_survey_border_color">#ff555555</color>
+    <color name="ad_duffy_survey_calm_font_color">#ffdddddd</color>
+    <color name="ad_duffy_survey_red_background_color">#ffd32f2f</color>
+    <color name="ad_duffy_survey_calm_background_color">@*android:color/background_dark</color>
+    <color name="ad_duffy_survey_white_background_color">@*android:color/background_dark</color>
+    <color name="suw_flat_button_highlight">#1fffffff</color>
+
+    <color name="swiped_bg_color_ad_teaser">@*android:color/button_material_dark</color>
+    <color name="ic_launcher_adaptive_background">@*android:color/background_floating_material_dark</color>
 </resources>

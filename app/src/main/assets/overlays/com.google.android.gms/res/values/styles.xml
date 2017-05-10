@@ -157,57 +157,7 @@
 
     <style name="auth_setup_wizard_theme_material.light" parent="@*android:style/Theme.Material.NoActionBar" />
 
-    <style name="Widget.MediaRouter.ChooserText" parent="">
-        <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Primary" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText">
-        <item name="android:textSize">16.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText">
-        <item name="android:textSize">14.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText.Secondary">
-        <item name="android:textColor">#8affffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText.Secondary">
-        <item name="android:textColor">#8affffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText" parent="@*com.google.android.gms:style/Widget.MediaRouter.ChooserText" />
-    <style name="Widget.MediaRouter.ControllerText.Title" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText">
-        <item name="android:textSize">20.0sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Primary" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText">
-        <item name="android:textSize">16.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Secondary" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText">
-        <item name="android:textSize">14.0sp</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Title.Dark" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText.Title">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Title.Light" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText.Title">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Primary.Light" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText.Primary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Secondary.Dark" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText.Secondary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
-    <style name="Widget.MediaRouter.ControllerText.Secondary.Light" parent="@*com.google.android.gms:style/Widget.MediaRouter.ControllerText.Secondary">
-        <item name="android:textColor">#ffffffff</item>
-    </style>
+
 
     <style name="Base.CardView" parent="@*android:style/Widget" />
     <style name="CardView" parent="@*com.google.android.gms:style/Base.CardView">

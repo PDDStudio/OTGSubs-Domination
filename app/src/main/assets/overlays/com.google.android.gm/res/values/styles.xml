@@ -281,4 +281,28 @@
         <item name="*com.google.android.gm:pressedTranslationZ">@*com.google.android.gm:dimen/design_fab_translation_z_pressed</item>
         <item name="*com.google.android.gm:borderWidth">@*com.google.android.gm:dimen/design_fab_border_width</item>
     </style>
+
+
+    <style name="AddonFormText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SuwThemeGlifV2" parent="@*com.google.android.gm:style/SuwThemeGlif">
+        <item name="*com.google.android.gm:suwGlifHeaderGravity">center_horizontal</item>
+        <item name="*com.google.android.gm:suwScrollIndicators">bottom|top</item>
+        <item name="*com.google.android.gm:suwBackgroundPatterned">false</item>
+        <item name="*com.google.android.gm:suwBackgroundBaseColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="SuwThemeGlifV2.Light" parent="@*com.google.android.gm:style/SuwThemeGlif">
+        <item name="*com.google.android.gm:suwGlifHeaderGravity">center_horizontal</item>
+        <item name="*com.google.android.gm:suwScrollIndicators">bottom|top</item>
+        <item name="*com.google.android.gm:suwBackgroundPatterned">false</item>
+        <item name="*com.google.android.gm:suwBackgroundBaseColor">@*android:color/background_floating_material_dark</item>
+    </style>
 </resources>
